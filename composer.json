@@ -1,0 +1,30 @@
+{
+    "name": "novomirskoy/scoop-nginx-builder",
+    "description": "Builder nginx json manifest file for scoop",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Endin Artyom",
+            "email": "endin.artyom@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Novomirskoy\\ScoopNginxBuilder\\": "src/"
+        }
+    },
+    "require": {
+        "symfony/console": "^3.1",
+        "symfony/dom-crawler": "^3.1",
+        "symfony/css-selector": "^3.1",
+        "guzzlehttp/guzzle": "^6.2",
+        "zendframework/zend-servicemanager": "^3.1",
+        "psr/log": "^1.0",
+        "monolog/monolog": "^1.9"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.4",
+        "psy/psysh": "^0.7",
+        "symfony/var-dumper": "^3.1"
+    }
+}
