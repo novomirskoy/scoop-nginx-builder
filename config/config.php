@@ -8,6 +8,7 @@ return [
         'factories' => [
             Command\LatestVersion::class => Command\Factory\LatestVersionFactory::class,
             Command\Hash::class => InvokableFactory::class,
+            Command\Generate::class => InvokableFactory::class,
         ],
     ],
     
@@ -15,6 +16,7 @@ return [
         'commands' => [
             Command\LatestVersion::class,
             Command\Hash::class,
+            Command\Generate::class,
         ],
     ],
 
